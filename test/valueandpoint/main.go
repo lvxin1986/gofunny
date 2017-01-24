@@ -1,4 +1,4 @@
-package test
+package main
 
 import (
 	"fmt"
@@ -36,7 +36,8 @@ func ValueAndPointTest() {
 	fmt.Println("x2+1 = ", x21) // 应该输出"x+1 = 4"
 	fmt.Println("x = ", x2)    // 应该输出"x = 3"
 
+}
 
-
-
+func main() {
+	ValueAndPointTest()
 }
